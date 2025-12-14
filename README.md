@@ -1,0 +1,1 @@
+QIVES is a lowkey console detective game where you just use terminal commands and slowly uncover stuff. It’s named after “archive” because you’re basically digging through old digital files to figure out what’s really going on.
