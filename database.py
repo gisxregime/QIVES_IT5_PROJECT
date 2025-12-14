@@ -49,15 +49,16 @@ def init_db():
     """)
 
     # SCORE SESSION (OPTIONAL / FUTURE)
-    c.execute("""
-        CREATE TABLE IF NOT EXISTS score_session (
-            user_id INTEGER,
-            chapter INTEGER,
-            start_time INTEGER,
-            command_count INTEGER,
-            PRIMARY KEY (user_id, chapter)
-        )
-    """)
+
+    #c.execute("""
+    #    CREATE TABLE IF NOT EXISTS score_session (
+    #        user_id INTEGER,
+    #        chapter INTEGER,
+    #        start_time INTEGER,
+    #        command_count INTEGER,
+    #        PRIMARY KEY (user_id, chapter)
+    #    )
+    #""")
 
     # LOGS
     c.execute("""
