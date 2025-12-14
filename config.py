@@ -1,0 +1,7 @@
+DB_FILE = "qives.sqlite3"
+NUM_CHAPTERS = 5
+
+DIRS_MIN = 5
+DIRS_MAX = 10
+FILES_MAX = 40
+FILES_MIN = 20
